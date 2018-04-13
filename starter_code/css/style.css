@@ -96,6 +96,7 @@ header nav ul li a {
   color: #f9e42e;
 }
 
+
 #hero {
   height: 700px;
   background: url(../images/header_bg.jpg) no-repeat top center #131e27;
@@ -289,7 +290,62 @@ footer p {
   font-weight: 600;
 }
 #contact {
-  width: 70%;
+  width: 100%;
+}
+#bttn {
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 12px 0;
+  width: 280px;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  margin: 28px;
+  background:#033048;
+  color:white;
+}
+#name input{
+  height:35px;
+  width:400px;
+  margin:10px; 
+}
+#email input{
+  height:35px;
+  width:400px;
+  margin:10px; 
+}
+#phone input{
+  height:35px;
+  width:400px;
+  margin:10px; 
+}
+#password input{
+  height:35px;
+  width:400px;
+  margin:10px; 
+}
+#state select {
+  height:35px;
+  width:400px;
+  margin:10px;
+}
+.check-box {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px;
+}
+#gridRadios1 {
+  align-items: center;
+}
+}
+.row{
+  width: 85%;
+}
+h2{
+  font-size: 1.5em;
+  font-weight:300;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 @media only screen and (max-width: 768px) {

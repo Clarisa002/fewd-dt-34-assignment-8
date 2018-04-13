@@ -25,10 +25,68 @@
 				</nav>
 			</div>
 		</header>
-		<section id="main">
+		<section>
 			<div class="container">
+				<h2>Register Now</h2>
 				<section id="contact">
-					<input type="submit" value="Register Now!">
+			<form>
+			<div id="name">
+    		<label for="name">Name:</label>
+    		<input type="text" id="name" name="first-name, last-name">
+  			</div>
+  			<div id="email">
+    		<label for="email">Email:</label>
+    		<input type="text" id="mail" name="user_email">
+  			</div>
+  			<div id="phone">
+    		<label for="phone">Phone:</label>
+    		<input type="text" id="phone" name="user_number">
+  			</div>
+
+  			<div id="state">
+    		<label for="state">State:</label>
+  			<select>
+  			<option value="alabama">Alabama</option>
+  			<option value="california">California</option>
+			<option value="california">California</option>
+			<option value="texas">Texas</option>
+			<option value="washington">Washington</option>
+			<option value="arizona">Arizona</option>
+			</select>
+			</div>
+				<div id="password">
+    		<label for="password">Password:</label>
+    		<input type="text" id="password" name="user_password">
+  			</div>
+
+			 <div class="row">
+      <legend class="service">Which service are you interested in?</legend>
+      <div>
+        <div class="check-box">
+          <input type="radio" name="gridRadios" id="gridRadios1" value="option1" >
+          <label for="gridRadios1">Relaxing</label>
+        </div>
+        <div class="check-box">
+          <input type="radio" name="gridRadios" id="gridRadios2" value="option2">
+          <label for="gridRadios2">Email</label>
+        </div>
+        <div class="check-box">
+          <input type="radio" name="gridRadios" id="gridRadios3" value="option3">
+          <label for="gridRadios3">Phone</label>
+        </div>
+      </div>
+    </div>
+
+			 <div class="form-check">
+        <input type="checkbox" id="gridCheck1">
+        <label for="gridCheck1">I agree to the terms</label>
+      </div>
+
+
+
+
+					<input type="submit" id="bttn" value="Register Now!">
+					</form>
 				</section>
 			</div>
 		</section>
@@ -43,5 +101,7 @@
 
 			<p class="copyright">Copyright 2015. Relaxr.</p>
 		</footer>
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <script src="script.js"></script>
 	</body>
 </html>
